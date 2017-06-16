@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #4A4A4A;
+  padding: 20px;
+}
+
+article {
+  border: 8px solid #00AA86;
+  background-color: lightGrey;
+  padding: inherit;
+}
+
+
+h1 {
+  color: #D32F2F;
+}
+
+h2 {
+  background-color: #0093D5;
+}
+
+h3 {
+  color: #00AA86;
+  background-color: rgb(245,183,35);
+}
+
+p, ul {
+  background-color: white;
+  font-size: 1.2em;
+}
+
+a: link {
+  color: red;
+}
+
+a:visited {
+  color: black;
+}
+
+img.large {
+  width: 500px;
+  height: 300px;
+}
