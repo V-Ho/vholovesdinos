@@ -1,31 +1,43 @@
 body {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Open Sans', Verdana, sans-serif;
   color: #4A4A4A;
   padding: 20px;
+  margin: 20px;
 }
 
 article {
-  border: 8px solid #00AA86;
+  border: 4px solid #778899;
   background-color: lightGrey;
-  padding: inherit;
+  padding: 20px;
+  margin: inherit;
 }
 
 
 h1 {
-  color: #D32F2F;
+  color: #80C3D7;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
+
+h1, a {
+  color: #80C3D7;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 h2 {
-  background-color: #0093D5;
+  color: #0093D5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
   color: #00AA86;
-  background-color: rgb(245,183,35);
+  font-family: 'Open Sans', sans-serif;
 }
 
 p, ul {
-  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightGrey;
   font-size: 1.2em;
 }
 
@@ -34,10 +46,19 @@ a: link {
 }
 
 a:visited {
-  color: black;
+  color: #D0FFD6;
+}
+
+a:hover {
+  color: #80CED7;
 }
 
 img.large {
   width: 500px;
   height: 300px;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
 }
